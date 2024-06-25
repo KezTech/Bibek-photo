@@ -1,6 +1,6 @@
 {
   "name": "bibek_photography",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,6 +13,7 @@
     "@vercel/speed-insights": "^1.0.11",
     "animate.css": "^4.1.1",
     "autoprefixer": "10.4.14",
+    "aws-amplify": "^6.3.8",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
     "framer-motion": "^10.12.12",
@@ -29,8 +30,16 @@
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.0.3",
+    "@aws-amplify/backend-cli": "^1.0.4",
     "@types/node": "20.11.20",
     "@types/react": "18.2.57",
-    "ts-migrate": "^0.1.35"
+    "aws-cdk": "^2.147.1",
+    "aws-cdk-lib": "^2.147.1",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.21.5",
+    "ts-migrate": "^0.1.35",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
   }
 }
